@@ -1,3 +1,6 @@
+var x = document.createElement("DD");
+var y = document.createTextNode("It's working");
+
 function getThatSwatch () {
 	document.write('Swatches for deeper complexions! Coming Soon');
 }
@@ -8,25 +11,25 @@ function getThatSwatch () {
 
 //constructor notation with many objects 
 
- function foundation(image, name, brand, price) {
-	 this.image = image
-	 this.name = name;
-	 this.brand = brand;
-	 this.price = price;
+ // function foundation(image, name, brand, price) {
+	 // this.image = image
+	 // this.name = name;
+	 // this.brand = brand;
+	 // this.price = price;
 
 	 
-var lipstick = new product(); {
-	melanin.image = 'img/caramelSwatch.jpeg';
-	melanin.name = 'Caramel';
-	melanin.brand = 'Revlon';
-	melanin.price = '$10.99'; 
+// var lipstick = new product(); {
+	// melanin.image = 'img/caramelSwatch.jpeg';
+	// melanin.name = 'Caramel';
+	// melanin.brand = 'Revlon';
+	// melanin.price = '$10.99'; 
 	
-var melanin = new product(); {
-	melanin.image = 'img/pecanSwatch.jpeg';
-	melanin.name = 'Pecan';
-	melanin.brand = 'Revlon';
-	melanin.price = '$10.99';
+// var melanin = new product(); {
+	// melanin.image = 'img/pecanSwatch.jpeg';
+	// melanin.name = 'Pecan';
+	// melanin.brand = 'Revlon';
+	// melanin.price = '$10.99';
 	
-	document.body.appendChild(melanin)
-	
-}
+// }
+
+	// document.getElementById("
