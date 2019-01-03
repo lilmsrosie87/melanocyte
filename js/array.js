@@ -11,7 +11,7 @@ var x = document.createElement("DD");
 
 //constructor notation with many objects 
 
-  function foundation(image, name, brand, price) {
+  function getThatSwatch(image, name, brand, price) {
 	this.image = image
 	this.name = name;
 	this.brand = brand;
